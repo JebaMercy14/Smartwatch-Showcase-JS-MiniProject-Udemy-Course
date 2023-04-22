@@ -1,0 +1,55 @@
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#smartwatch-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#smartwatch-image {
+  width: 200px;
+  height: 200px;
+}
+
+#smartwatch-info {
+  margin-left: 20px;
+}
+
+#smartwatch-title {
+  font-size: 24px;
+  color: #23211f;
+}
+
+#smartwatch-description {
+  font-size: 16px;
+  color: #565681;
+}
+
+#smartwatch-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ca3d22;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  
+}
+
+/* Additional Styles for Skin Color */
+#smartwatch-container {
+  background-color: #eee;
+}
+
+#smartwatch-title,
+#smartwatch-description {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+#smartwatch-button:hover {
+  background-color: #8a5360;
+}
